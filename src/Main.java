@@ -14,17 +14,6 @@ public class Main {
             animal.displayInfo();
             animal.eat();
             animal.sleep();
-
-            if (animal instanceof Dog) {
-                ((Dog) animal).fetch();
-            } 
-            else if (animal instanceof Cat) {
-                ((Cat) animal).laze();
-            } 
-            else if (animal instanceof Bird) {
-                ((Bird) animal).fly();
-            }
-
             System.out.println();
         }
     }

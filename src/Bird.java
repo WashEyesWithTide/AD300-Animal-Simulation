@@ -14,4 +14,9 @@ public class Bird extends Animal {
         System.out.println(getName() + " flys.");
     }
     
+    @Override
+    public void displayInfo() {
+        super.displayInfo();
+        fly();
+    }
 }

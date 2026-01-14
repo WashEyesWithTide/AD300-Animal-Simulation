@@ -13,4 +13,10 @@ public class Cat extends Animal {
     public void laze() {
         System.out.println(getName() + " lazes.");
     }
+
+    @Override
+    public void displayInfo() {
+        super.displayInfo();
+        laze();
+    }
 }
