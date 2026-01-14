@@ -1,6 +1,6 @@
 package src;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private int age;
 
@@ -25,7 +25,7 @@ public class Animal {
         System.out.println(name + " sleeps.");
     }
 
-    public void makeSound() {} //Overridden in subclasses
+    public abstract void makeSound();
 
     public void displayInfo() {
         System.out.println("Name: " + getName());
